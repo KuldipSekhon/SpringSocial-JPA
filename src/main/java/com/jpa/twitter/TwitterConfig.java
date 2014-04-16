@@ -29,8 +29,8 @@ public class TwitterConfig {
 
         if(twitter==null){
             twitter
-            = new TwitterTemplate("odvGlDrl0mjZMEmqxsudocKG6", "8V8C0wtQH7BRPpikdqyU5HKbGfdLizYklOkZngFGZHP0KnXoZk",
-                    "1597644001-2BKdUfpowjlO5iHQABgMPHt2F00bVfJFBE2vlMJ", "CxZ5TzSHGXlVfoyPuHOcoFwGL23U2vXlohvqwySTW2iWn");
+            = new TwitterTemplate("odvGlDrl0mjZMEmqxsudocKG6", "8V8C0wtQH7BRPpik**********FGZHP0KnXoZk",
+                    "1597644001-2BKd*****************F00bVfJFBE2vlMJ", "CxZ5TzSHGXlVf******8wySTW2iWn");
         }
 
     }

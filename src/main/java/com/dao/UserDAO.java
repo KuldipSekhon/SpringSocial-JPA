@@ -154,6 +154,7 @@ public class UserDAO {
         logg.info("After deletion of User ID.........................."+result);
 
         preparedStatement.close();
+        conn.close();
 
         return  result;
 

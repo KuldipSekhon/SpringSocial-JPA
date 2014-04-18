@@ -21,6 +21,9 @@
 
       <b>Get Twitter Data</b>
         <a href="twitterData.jsp">Get Twitter Data</a>
+        
+        <b>Add Account Details</b>
+        <a href="accountDtls.jsp">Enter Account details</a>
 
 
 </body>

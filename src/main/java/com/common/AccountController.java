@@ -48,7 +48,7 @@ public class AccountController extends MultiActionController{
 		   
 		   accountHolder.setName(name);
 		
-		  accountServiceImpl.enterAccountDetails(accountHolder);
+	//	  accountServiceImpl.enterAccountDetails(accountHolder);
 		  
 		 // String name = accountHolder.getName();//???
 		  //String accountType = accountHolder.g

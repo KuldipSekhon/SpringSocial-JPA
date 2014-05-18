@@ -1,0 +1,50 @@
+<html>
+<title>
+    AngularJS implementation with REST Websevices
+</title>
+<head>
+    <script src="https://code.angularjs.org/1.2.6/angular.js"></script>
+    <script src="https://code.angularjs.org/1.2.6/angular-resource.js"></script>
+    <script src="../js/userControllerJS.js"></script>
+</head>
+
+
+<body>
+
+<div ng-app="app">
+        <div ng-controller="CalculatorController">
+            Enter a number:
+            <input type="number" ng-model="number" />
+            <button ng-click="getTweets()">X<sup>2</sup></button>
+    <!--        <button ng-click="doCube()">X<sup>3</sup></button>-->
+             
+            <div>Answer: {{answer}}</div>
+        </div>
+</div>
+
+<!--<h3>AngularJS GitHub Issues</h3>-->
+<!--<table class="table table-striped">-->
+    <!--<tr>-->
+        <!--<th>Number</th>-->
+        <!--<th>State</th>-->
+        <!--<th>Reporter</th>-->
+        <!--<th>Title</th>-->
+        <!--<th>Description</th>-->
+    <!--</tr>-->
+    <!--<tr ng-repeat="issue in data.issues">-->
+        <!--<td>{{issue.number}}</td>-->
+        <!--<td>{{issue.state}}</td>-->
+        <!--<td>{{issue.user.login}}</td>-->
+        <!--<td>{{issue.title}}</td>-->
+        <!--<td>{{issue.body}}</td>-->
+    <!--</tr>-->
+<!--</table>-->
+
+
+
+
+</body>
+
+
+
+</html>
